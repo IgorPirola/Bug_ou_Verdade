@@ -18,39 +18,7 @@ local Perguntas = {
         ativo = false, resp = 4, temp = 31, selec = 0,
         respTxt = "D. Um conjunto de passos lógicos para resolver um problema."},
 
-        {text = [[3. UTF-8 é:
-
-    A. Uma forma de codificação de pontos de código Unicode.
-    B. A 8ª Versão do padrão UTF.
-    C. Um sinônimo para byte.
-    D. O nome de uma linguagem de programação]],
-        ativo = false, resp = 1, temp = 31, selec = 0,
-        respTxt = "A. Uma forma de codificação de pontos de código Unicode."},
-
-        {text = [[4. O que significa responsividade no contexto de web design?
-
-    A. Capacidade de responder a eventos de clique
-    B. Integração entre frontend e backend
-    C. Capacidade do site se adaptar a diferentes tamanhos de telas
-    D. Habilidade de usar inteligência artificial]],
-        ativo = false, resp = 3, temp = 41, selec = 0,
-        respTxt = "C. Capacidade do site se adaptar a diferentes tamanhos de telas"},
-
-        {text = [[5. O Código a seguir:
-
-    1 | x = '\''
-    2 | print(len(x)) -- imprime tamanho de x
-
-Mostra: 
-
-    A. 20
-    B. 3
-    C. 2
-    D. 1]],
-        ativo = false, resp = 4, temp = 41, selec = 0,
-        respTxt = "D. 1"},
-
-        {text = [[6. Para que serve o comando if em programação?
+        {text = [[3. Para que serve o comando if em programação?
 
     A. Para repetir um bloco várias vezes.
     B. Para tomar decisões com base em condições.
@@ -59,7 +27,7 @@ Mostra:
         ativo = false, resp = 2, temp = 31, selec = 0,
         respTxt = "B. Para tomar decisões com base em condições."},
 
-        {text = [[7. Qual estrutura repete um bloco de código enquanto uma condição for verdadeira?
+        {text = [[4. Qual estrutura repete um bloco de código enquanto uma condição for verdadeira?
 
     A. try
     B. if
@@ -68,36 +36,7 @@ Mostra:
         ativo = false, resp = 3, temp = 31, selec = 0,
         respTxt = "C. while"},
 
-        {text = [[8. Qual é a função da tag <span> em HTML?
-
-    A. Criar uma nova linha
-    B. Agrupar pequenos trechos de texto para aplicar estilos
-    C. Inserir uma imagem
-    D. Definir um título principal]],
-        ativo = false, resp = 2, temp = 31, selec = 0,
-        respTxt = "B. Agrupar pequenos trechos de texto para aplicar estilos"},
-
-        {text = [[9. Qual elemento HTML é usado para criar um link?
-
-    A. <link>
-    B. <a>
-    C. <href>
-    D. <url>]],
-        ativo = false, resp = 2, temp = 31, selec = 0,
-        respTxt = "B. <a>"},
-
-        {text = [[10. Qual será o comportamento deste botão em HTML se não estiver dentro de um <form>?
-
-    1 | <button type="submit">Enviar</button>
-
-    A. O botão será desabilitado automaticamente
-    B. Nada acontece ao clicar
-    C. O navegador recarrega a página
-    D. O botão age como um botão comum sem função associada]],
-        ativo = false, resp = 4, temp = 31, selec = 0,
-        respTxt = "D. O botão age como um botão comum sem função associada"},
-
-        {text = [[11. Qual dessas opções descreve melhor o CSS?
+        {text = [[5. Qual dessas opções descreve melhor o CSS?
 
     A. Uma linguagem de programação de servidor
     B. Um sistema de controle de banco de dados
@@ -106,16 +45,7 @@ Mostra:
         ativo = false, resp = 3, temp = 31, selec = 0,
         respTxt = "C. Uma linguagem para estilizar o conteúdo HTML"},
 
-        {text = [[12. O que faz a propriedade padding em CSS?
-
-    A. Define o espaço entre o conteúdo e a borda do elemento
-    B. Define a margem externa do elemento
-    C. Controla a largura do elemento
-    D. Controla a opacidade]],
-        ativo = false, resp = 1, temp = 31, selec = 0,
-        respTxt = "A. Define o espaço entre o conteúdo e a borda do elemento"},
-
-        {text = [[13. O que o código a seguir faz?
+        {text = [[6. O que o código a seguir faz?
 
     1 | x = 5
     2 | if (x === "5"){
@@ -131,7 +61,7 @@ Mostra:
         ativo = false, resp = 2, temp = 31, selec = 0,
         respTxt = "B. Imprime \"diferente\", porque tipos são diferentes"},
 
-        {text = [[14. Qual dessas linguagens é mais usada para desenvolvimento web no lado do cliente (front-end)?
+        {text = [[7. Qual dessas linguagens é mais usada para desenvolvimento web no lado do cliente (front-end)?
 
     A. C#
     B. Java
@@ -140,7 +70,7 @@ Mostra:
         ativo = false, resp = 3, temp = 31, selec = 0,
         respTxt = "C. JavaScript"},
 
-        {text = [[15. Qual comando em SQL é usado para buscar todos os dados da tabela ´clientes´?
+        {text = [[8. Qual comando em SQL é usado para buscar todos os dados da tabela ´clientes´?
 
     A. SHOW ALL clientes;
     B. SELECT * FROM clientes;
@@ -149,7 +79,7 @@ Mostra:
         ativo = false, resp = 2, temp = 31, selec = 0,
         respTxt = "B. SELECT * FROM clientes;"},
 
-        {text = [[16. O que o seguinte comando SQL faz?
+        {text = [[9. O que o seguinte comando SQL faz?
 
     1 | SELECT * FROM pedidos WHERE valor > 100;
 
@@ -161,7 +91,7 @@ Mostra:
         ativo = false, resp = 3, temp = 36, selec = 0,
         respTxt = "C. Mostra todas as informações dos pedidos com valor maior que 100"},
 
-        {text = [[17. Qual consulta SQL retorna a quantidade de pedidos por cliente?
+        {text = [[10. Qual consulta SQL retorna a quantidade de pedidos por cliente?
 
     A. SELECT cliente_id FROM pedidos COUNT;
     B. SELECT cliente_id, COUNT(*) FROM pedidos GROUP BY 
@@ -170,17 +100,7 @@ Mostra:
     D. SELECT COUNT(cliente_id) WHERE pedidos;]],
         ativo = false, resp = 2, temp = 36, selec = 0,
         respTxt = "B. SELECT cliente_id, COUNT(*) FROM pedidos GROUP BY cliente_id;"},
-
-        {text = [[18. Qual desses comandos atualiza o valor da coluna status para 'Cancelado' apenas nos pedidos com valor menor que 100?
-
-    A. UPDATE pedidos WHERE valor < 100 SET status = 'Cancelado';
-    B. SET status = 'Cancelado' WHERE valor < 100 FROM pedidos;
-    C. UPDATE pedidos SET status = 'Cancelado' WHERE valor < 100;
-    D. ALTER pedidos SET status = 'Cancelado' WHERE valor < 100;]],
-        ativo = false, resp = 3, temp = 46, selec = 0,
-        respTxt = "C. UPDATE pedidos SET status = 'Cancelado' WHERE valor < 100;"},
     },
-
     posX = 0,
     posY = 0,
     index = 1

@@ -1,4 +1,6 @@
 Perguntas = require("perguntas")
+--Perguntas.lista = Perguntas.lista or {}
+--Perguntas.index = tonumber(Perguntas.index) or 1
 
 LG = love.graphics
 LK = love.keyboard
