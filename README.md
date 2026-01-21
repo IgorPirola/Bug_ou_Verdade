@@ -26,12 +26,13 @@ Tenha instalado:
 - Clone o repositório:
     ```bash
     git clone https://github.com/IgorPirola/Bug_ou_Verdade.git
-    cd seu-projeto
+    cd Bug_ou_Verdade
     ```
 
 ### Execução
 
 - Faça uma variavel de ambiente ou execute diretamente com o arquivo do love:
    ```bash
-   "C:\Program Files\LOVE\love.exe" "C:\caminho\seu-projeto"
+   "C:\Program Files\LOVE\love.exe" "C:\caminho\Bug_ou_Verdade"
    ```
+   (Substitua o caminho conforme a instalação do LOVE e onde você clonou o projeto.)
